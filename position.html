@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Eg</title>
+    <style>
+        .container {
+            display: grid;
+            border: 2px solid green;
+            grid-template-columns: 200px 1fr 2fr 1fr;
+            grid-template-rows: 1fr 2fr 1fr 3fr;
+            column-gap: 30px;
+        }
+
+        .box1 {
+            border: 5px solid red;
+            background-color: aquamarine;
+            margin: 5px;
+            padding: 12px;
+        }
+
+        @media (orientation: landscape) {
+            .container{
+                background-color: rgb(209, 15, 15, 0.4);
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">1111 </div>
+        <div class="box1">2222</div>
+        <div class="box1">3333</div>
+        <div class="box1">4444</div>
+        <div class="box1">5555</div>
+        <div class="box1">1111 </div>
+        <div class="box1">2222</div>
+        <div class="box1">3333</div>
+        <div class="box1">4444</div>
+        <div class="box1">5555</div>
+        <div class="box1">1111 </div>
+        <div class="box1">2222</div>
+        <div class="box1">3333</div>
+        <div class="box1">4444</div>
+        <div class="box1">5555</div>
+        <div class="box1">1111 </div>
+        <div class="box1">2222</div>
+        <div class="box1">3333</div>
+        <div class="box1">4444</div>
+        <div class="box1">5555</div>
+    </div>
+</body>
+
+</html>
